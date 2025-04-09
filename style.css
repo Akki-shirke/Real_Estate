@@ -1,0 +1,316 @@
+:root {
+	--font-family: "Montserrat", sans-serif;
+	--second-family: "PlayfairDisplay-Black", sans-serif;
+	--third-family: "Radio Canada", sans-serif;
+	--font3: "Playfair", sans-serif;
+	--primary: #b2954b;
+	--secondary: #dbae58;
+	--bg-content: #fcf2df;
+	--white: #fff;
+	--brown: #312300;
+	--yellow: #f8dd62;
+	--black: #000;
+	--black2: #1e1e1ea2;
+	--white-text: #e7e7e7a2;
+	--dark: #0f0f0d;
+	--silver: #fff5e8;
+	--bg: #fff7e4;
+	--grey: #ece7df;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "PlayfairDisplay-Black, sans-serif";
+}
+.logo {
+	width: 100px;
+}
+.Main {
+	background-image: url(hero-bg.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.hero-title {
+	font-size: 8vw;
+	letter-spacing: 15px;
+	font-weight: 700;
+	font-style: var(--font-family);
+	color: var(--primary);
+}
+.upper-line {
+	text-align: center;
+	margin-bottom: -20px;
+	font-size: 20px;
+	font-family: var(--font3);
+	font-weight: 200;
+}
+
+.box {
+	border: 2px dashed #00000052;
+	padding: 20px 15px;
+	position: relative;
+	margin: 5px;
+}
+.box h2 {
+	font-size: 30px;
+	font-weight: 600;
+}
+.box p {
+	font-size: 15px;
+	font-weight: 400;
+	font-family: sans-serif;
+	line-height: 24px;
+}
+.sample {
+	background-color: #f8f9fa;
+	width: 70%;
+	border-radius: 5px;
+	margin: auto;
+}
+.Sample-text {
+	font-weight: 800;
+	font-family: sans-serif;
+	font-size: 25px;
+	padding-bottom: 20px;
+}
+.btn-yellow {
+	background-color: var(--yellow);
+	border: none;
+	padding: 10px 20px;
+	font-size: 18px;
+	font-family: sans-serif;
+}
+
+.box-address {
+	margin-bottom: 10px;
+	background-color: var(--primary);
+	width: 80%;
+}
+.box-address .address {
+	font-size: 20px;
+	font-weight: 600;
+}
+.num {
+	font-size: 22px;
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+
+.bg-tags {
+	background-color: var(--primary);
+}
+.tags h5 {
+	font-size: 20px;
+	font-weight: 600;
+	color: var(--white);
+	text-align: center;
+	padding: 10px 0px;
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.one-bhk .heading {
+	font-size: 40px;
+	font-weight: 600;
+	font-family: var(--font-family);
+}
+.one-bhk .heading p {
+	font-size: 20px;
+	font-weight: 400;
+	font-family: var(--font-family);
+	line-height: 24px;
+	margin-bottom: 20px;
+}
+.content {
+	background-color: var(--bg-content);
+}
+.content h2 {
+	font-size: 40px;
+	color: var(--black);
+	font-weight: 700;
+}
+.content p {
+	margin-top: 10px;
+	font-size: 15px;
+	color: var(--black2);
+	font-weight: 100;
+	line-height: 20px;
+	margin-bottom: 20px;
+	padding: 0 50px;
+}
+.row.no-gutter {
+	--bs-gutter-x: 0;
+	--bs-gutter-y: 0;
+}
+.invest {
+	background-image: url(bg-2.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.invest h2 {
+	font-size: 50px;
+	color: var(--black);
+	font-weight: 700;
+	text-align: center;
+}
+.invest p {
+	font-size: 15px;
+	color: var(--white-text);
+	font-weight: 100;
+	line-height: 30px;
+	margin-top: 20px;
+}
+
+.investBox {
+	border: 0.5px dashed #ffe1aa8f;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	padding: 20px;
+}
+
+.investBox img {
+	width: 40px;
+	height: 40px;
+	margin-bottom: 15px;
+}
+
+.investBox h3 {
+	font-size: 18px;
+	margin-bottom: 5px;
+}
+
+.investBox h4 {
+	font-size: 16px;
+	color: gold;
+}
+
+.col-md-4 {
+	padding: 0;
+}
+
+/* Remove outer borders - 3 columns per row (col-md-4) */
+.col-md-4:nth-child(3n + 1) .investBox {
+	border-left: none;
+}
+
+.col-md-4:nth-child(3n) .investBox {
+	border-right: none;
+}
+
+.col-md-4:nth-child(-n + 3) .investBox {
+	border-top: none;
+}
+
+.col-md-4:nth-child(n + 7) .investBox {
+	border-bottom: none;
+}
+
+/* map */
+.city-map {
+	background-color: var(--bg);
+}
+.city-map h2 {
+	font-size: 42px;
+	font-weight: 900;
+}
+
+.city-map p {
+	font-size: 16px;
+	color: var(--black);
+	line-height: 24px;
+	margin-top: 10px;
+}
+.floor {
+	background-color: #ece7df;
+}
+.floor h2 {
+	font-size: 40px;
+	color: var(--secondary);
+	font-weight: 900;
+	text-align: center;
+	margin-top: 20px;
+}
+.floor h3 {
+	margin-top: 20px;
+	font-size: 22px;
+	font-weight: 700;
+}
+.footer h2 {
+	font-size: 40px;
+	color: var(--white);
+	font-weight: 900;
+	text-align: center;
+	margin-top: 20px;
+}
+.footer p {
+	font-size: 14px;
+	color: var(--white-text);
+	line-height: 25px;
+	margin-top: 10px;
+	font-family: var(--font3);
+}
+
+.footer form label {
+	font-weight: 700;
+}
+.footer form input {
+	width: 100%;
+	font-size: 1.2rem;
+	background-color: #3123008a;
+	border: none;
+	border-bottom: 3px solid;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+.footer form input:focus {
+	background-color: #fff2d1c9;
+	outline: #dbae58;
+	border: 2px solid;
+}
+.footer form textarea {
+	color: var(--white);
+	padding: 10px 20px;
+	font-size: 1.2rem;
+	background-color: #4131095a;
+	border: none;
+	border-bottom: 3px solid;
+}
+.footer form textarea:focus {
+	background-color: #fff2d1c9;
+	outline: #dbae58;
+	border: 2px solid;
+}
+.footer form button {
+	background-color: #dbae58;
+	font-size: 20px;
+	color: var(--bg);
+	padding: 10px;
+	width: 200px;
+}
+.footer form button:hover {
+	color: var(--black);
+	background-color: var(--yellow);
+}
+.footer .Copyright h6 {
+	font-size: 15px;
+}
+
+@media (max-width: 767px) {
+	.investBox {
+		border-left: none !important;
+		border-right: none !important;
+	}
+}
+@media (max-width: 289px) and (orientation: portrait), (max-height: 560px) {
+	body {
+		margin: 0 auto;
+	}
+	.sample {
+		width: 10%;
+	}
+}
