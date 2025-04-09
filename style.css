@@ -27,7 +27,7 @@
 	width: 100px;
 }
 .Main {
-	background-image: url(hero-bg.png);
+	background-image: url(./images/hero-bg.png);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -64,9 +64,10 @@
 	line-height: 24px;
 }
 .sample {
-	background-color: #f8f9fa;
+	background-color: hsl(210, 6%, 94%);
 	width: 70%;
 	border-radius: 5px;
+	padding: 10px;
 	margin: auto;
 }
 .Sample-text {
@@ -79,7 +80,7 @@
 	background-color: var(--yellow);
 	border: none;
 	padding: 10px 20px;
-	font-size: 18px;
+	font-size: 1.2rem;
 	font-family: sans-serif;
 }
 
@@ -143,7 +144,7 @@
 	--bs-gutter-y: 0;
 }
 .invest {
-	background-image: url(bg-2.png);
+	background-image: url(./images/bg-2.png);
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -193,7 +194,6 @@
 	padding: 0;
 }
 
-/* Remove outer borders - 3 columns per row (col-md-4) */
 .col-md-4:nth-child(3n + 1) .investBox {
 	border-left: none;
 }
@@ -312,5 +312,10 @@
 	}
 	.sample {
 		width: 10%;
+	}
+	.btn-yellow {
+		padding: 10px 30px;
+		font-size: 5px;
+		font-family: var(--font-family);
 	}
 }
