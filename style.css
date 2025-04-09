@@ -260,12 +260,11 @@
 }
 .footer form input {
 	width: 100%;
-	font-size: 1.2rem;
-	background-color: #3123008a;
+	font-size: 15px;
+	background-color: var(--brown);
+	color: white;
 	border: none;
-	border-bottom: 3px solid;
-	padding: 10px;
-	margin-bottom: 20px;
+	border-bottom: 1px solid;
 }
 .footer form input:focus {
 	background-color: #fff2d1c9;
@@ -274,9 +273,9 @@
 }
 .footer form textarea {
 	color: var(--white);
-	padding: 10px 20px;
-	font-size: 1.2rem;
-	background-color: #4131095a;
+
+	font-size: 15px;
+	background-color: var(--brown);
 	border: none;
 	border-bottom: 3px solid;
 }
@@ -295,6 +294,11 @@
 .footer form button:hover {
 	color: var(--black);
 	background-color: var(--yellow);
+}
+.invalid-tooltip {
+	font-size: 0.875rem;
+	color: #fff;
+	background-color: rgba(255, 99, 71, 0.674) !important;
 }
 .footer .Copyright h6 {
 	font-size: 15px;
@@ -317,5 +321,32 @@
 		padding: 10px 30px;
 		font-size: 5px;
 		font-family: var(--font-family);
+	}
+
+	.footer h2 {
+		font-size: 30px;
+		margin-top: 10px;
+	}
+	.footer p {
+		font-size: 10px;
+		line-height: 15px;
+		margin-top: 5px;
+	}
+	.footer form input {
+		width: 100%;
+		font-size: 12px;
+		margin-bottom: 15px;
+	}
+
+	.footer form textarea {
+		padding: 10px 20px;
+		font-size: 12px;
+	}
+
+	.footer form button {
+		background-color: #dbae58;
+		font-size: 15px;
+		padding: 10px;
+		width: 100%;
 	}
 }
