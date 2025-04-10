@@ -1,0 +1,17 @@
+<!-- Include GSAP and SplitType -->
+<script src="https://unpkg.com/split-type"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+
+<p id="animatedPara">This is an animated paragraph text effect using GSAP and SplitType.</p>
+
+<script>
+    const split = new SplitType("#animatedPara", { types: "words" });
+
+    gsap.from(split.words, {
+        opacity: 0,
+        y: 20,
+        duration: 0.6,
+        stagger: 0.1,
+        ease: "power2.out"
+    });
+</script>
